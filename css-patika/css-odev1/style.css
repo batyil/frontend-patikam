@@ -1,0 +1,39 @@
+body {
+  color: #2b2d42;
+  background-color: #edf2f4;
+  text-align: center;
+}
+
+.jstfy {
+  text-align: justify;
+}
+
+header {
+  border-bottom: 10px solid #8d99ae;
+  padding-bottom: 10px;
+}
+
+#logo {
+  background-color: #2b2d42;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+#logo a {
+  text-decoration: none;
+  color: #edf2f4;
+}
+
+img {
+  border: 10px solid #8d99ae;
+  border-radius: 10px;
+  max-width: 80%;
+}
+img:hover {
+  border: 5px solid #d90429;
+}
+
+p.warning-info {
+  background-color: #d90429;
+  color: #edf2f4;
+}
