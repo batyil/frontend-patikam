@@ -1,0 +1,10 @@
+body {
+  background-color: #e9ecef;
+}
+
+.male {
+  background-color: #236ab6 !important;
+}
+.female {
+  background-color: #c9318f !important;
+}
