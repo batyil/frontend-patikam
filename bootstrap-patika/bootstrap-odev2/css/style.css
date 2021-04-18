@@ -76,9 +76,9 @@ input.empty {
   color: lightgrey;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   nav .logo {
-    margin-left: 120px;
+    margin-left: 100px;
   }
 }
 
