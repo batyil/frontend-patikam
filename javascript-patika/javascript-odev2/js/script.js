@@ -36,6 +36,8 @@ function updateTaskList() {
 // EVENTS
 
 function handleListParent(e) {
+  if (e.target.id === "list") return;
+
   const getIndex = (item) => Array.from(listParent.children).indexOf(item);
 
   if (e.target.tagName === "LI") {
